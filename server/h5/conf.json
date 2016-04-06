@@ -1,0 +1,22 @@
+{
+	"mysql": {
+		"host": "127.0.0.1",
+		"user": "root",
+		"pass": "123456",
+		"db": "habbo"
+	},
+	"server": {
+		"ports": {
+			"game": 7858
+		},
+		"rewards": {
+			"interval": 60,
+			"credits": 100,
+			"duckets": 500
+		},
+		"welcome": {
+			"enabled": true,
+			"message": "Welcome to Habbo, %username%"
+		}
+	}
+}

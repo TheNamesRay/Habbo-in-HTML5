@@ -1,0 +1,26 @@
+<style>
+  body {
+    background-color:#000;
+  }
+  .furni {
+  	z-index:9;
+  	display:inline-block;
+  }
+  .furni-part {
+  	position:absolute;
+    z-index:9;
+  }
+</style>
+<div id="map" ng-draggable>
+	<div id="map-users"></div>
+	<div id="map-furni"></div>
+	<div id="map-chat-bubbles"></div>
+	<div id="map-tiles"></div>
+</div>
+<form id="chat-input-form" ng-submit="sendChatMessage()">
+  <div id="chat-input-form-left">
+    <i class="icon chatbubbles"></i>
+  </div><input id="chat-input" ng-model="chatMessage" placeholder="Type here to chat..." autocomplete="off">
+</form>
+<div id="room-info">
+</div>
